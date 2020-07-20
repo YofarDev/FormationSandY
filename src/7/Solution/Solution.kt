@@ -14,7 +14,7 @@ fun main() {
 }
 
 
-class User(val name: String, var email: String, val birthYear: Int) {
+class User(val name: String, val email: String, val birthYear: Int) {
 
     fun printAge() =
         println("$name a " + (Calendar.getInstance().weekYear - birthYear) + "ans !")
