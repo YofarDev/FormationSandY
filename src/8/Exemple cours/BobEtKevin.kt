@@ -30,6 +30,8 @@ class Human(name: String) : Character(name, 120, 20) {
         super.attack(ennemy)
 
     }
+
+
 }
 
 class Orc(name: String) : Character(name, 100, 40) {
