@@ -1,14 +1,19 @@
+import java.lang.Exception
 
 fun main() {
-    Person.TYPE
+
+    val number: Int? = null
+
+    if (number != null) addOne(number)
+
+
 }
 
-class Person {
-    val type = TYPE
-    companion object {
-        const val TYPE = "Human"
-    }
-}
+fun addOne(n: Int) = println(n + 1)
+
+
+
+
 
 
 
